@@ -16,4 +16,9 @@ router.get('/2', function(req, res, next) {
   res.render('index2');
 });
 
+/* GET home page. */
+router.get('/3', function(req, res, next) {
+  res.render('index3');
+});
+
 module.exports = router;
