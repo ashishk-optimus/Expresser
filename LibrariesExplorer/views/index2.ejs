@@ -13,42 +13,13 @@
 		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 		<script src="https://code.highcharts.com/highcharts.js"></script>
 		<script src="https://code.highcharts.com/modules/data.js"></script>
-        <script>
+        <script type="text/javascript">
             $(document).ready(function() {
                 $('.nav-trigger').click(function() {
                     $('.side-nav').toggleClass('visible');
                 });
-            });
-        </script>
-
-		<style>
-			.ad {
-				position: absolute;
-				width: 300px;
-				height: 250px;
-				border: 1px solid #ddd;
-				left: 50%;
-				transform: translateX(-50%);
-				top: 250px;
-				z-index: 10;
-			}
-			.ad .close {
-				position: absolute;
-				font-family: 'ionicons';
-				width: 20px;
-				height: 20px;
-				color: #fff;
-				background-color: #999;
-				font-size: 20px;
-				left: -20px;
-				top: -1px;
-				display: table-cell;
-				vertical-align: middle;
-				cursor: pointer;
-				text-align: center;
-			}
-		</style>
-		<script type="text/javascript">
+			});
+			
 			$(function() {
 				$('.close').click(function() {
 					$('.ad').css('display', 'none');
@@ -103,20 +74,6 @@
 		<div class="main-content">
 			<div class="title">
 				Analytics
-			</div>
-			<div class='ad'>
-				<div class="close">
-					<i class="ion-ios-close-empty"></i>
-				</div>
-				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-				<!-- kodhus demos -->
-				<ins class="adsbygoogle"
-				     style="display:inline-block;width:300px;height:250px"
-				     data-ad-client="ca-pub-8408356133845039"
-				     data-ad-slot="8154430505"></ins>
-				<script>
-				(adsbygoogle = window.adsbygoogle || []).push({});
-				</script>
 			</div>
 			<div class="main">
 				<div class="widget">

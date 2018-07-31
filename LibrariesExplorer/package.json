@@ -13,5 +13,8 @@
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
     "particles.js": "^2.0.0"
-  }
+  },
+  "engines": {
+    "node": "8.11.2"
+  },
 }
